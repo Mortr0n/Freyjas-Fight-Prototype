@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|c:\\users\\cmsl4\\documents\\freyja\\freyjasfight\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|c:\\users\\cmsl4\\documents\\freyja\\freyjasfight\\assets\\scripts\\camerascripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camerascripts\\camerafollow.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|c:\\users\\cmsl4\\documents\\freyja\\freyjasfight\\assets\\scripts\\playerscripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerscripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BC9A0D5B-2423-90B6-0BFE-4FFEF3DE1482}|Assembly-CSharp.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\readme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -19,6 +27,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CameraFollow.cs",
+              "DocumentMoniker": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\Assets\\Scripts\\CameraScripts\\CameraFollow.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CameraScripts\\CameraFollow.cs",
+              "ToolTip": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\Assets\\Scripts\\CameraScripts\\CameraFollow.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CameraScripts\\CameraFollow.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T03:39:09.91Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerScripts\\PlayerController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAiwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-10T20:25:35.636Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Readme.cs",
               "DocumentMoniker": "C:\\Users\\cmsl4\\Documents\\Freyja\\FreyjasFight\\Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
@@ -26,8 +60,7 @@
               "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Readme.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T20:20:28.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T20:20:28.091Z"
             }
           ]
         }

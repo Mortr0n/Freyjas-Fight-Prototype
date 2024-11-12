@@ -3,13 +3,17 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] Rigidbody playerRb;
-    private float _moveSpeed = 5f;
+    
+    private Animator animator;
+    private float moveSpeed;
+
+    private float _topSpeed = 5f;
     private float _rotationSpeed = 8;
     private float _decelerationFactor = .9f;
     private bool _enableMove =true;
     
 
-    public float MoveSpeed { get { return _moveSpeed; } set { _moveSpeed = value; } }
+    public float MoveSpeed { get { return _topSpeed; } set { _topSpeed = value; } }
     public float RotationSpeed { get { return _rotationSpeed; } set { _rotationSpeed = value; } }
     public bool EnableMove {  get { return _enableMove; } set { _enableMove = value; } }
 
@@ -17,6 +21,7 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         playerRb = GetComponent<Rigidbody>();
+        animator = transform.Find("Mage").GetComponent<Animator>();
     }
 
     private void FixedUpdate()
@@ -25,17 +30,28 @@ public class PlayerController : MonoBehaviour
         {
             Move();
         }
+
+        
+
     }
 
     void Move()
     {
         float xInput = Input.GetAxis("Horizontal");
         float zInput = Input.GetAxis("Vertical");
+        
+        moveSpeed = new Vector2 (xInput, zInput).magnitude;
+
+        Debug.Log($"moveSpeed: {moveSpeed}");
+
+        animator.SetFloat("moveSpeed", moveSpeed);
+
+        
 
         Vector3 moveDirection = new Vector3(xInput, 0, zInput).normalized;
         if (moveDirection != Vector3.zero)
         {
-            Vector3 targetVelocity = moveDirection * _moveSpeed;
+            Vector3 targetVelocity = moveDirection * _topSpeed;
             playerRb.linearVelocity = new Vector3(targetVelocity.x, playerRb.linearVelocity.y, targetVelocity.z);
 
             Quaternion targetRotation = Quaternion.LookRotation(moveDirection, Vector3.up);
